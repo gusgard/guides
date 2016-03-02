@@ -18,3 +18,4 @@ Swift
   first letter.
 * When using `Void` in function signatures, prefer `()` for arguments and
   `Void` for return types.
+* Avoid `weak` references to IBOutlets.

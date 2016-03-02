@@ -11,6 +11,8 @@ struct User {
 
 // When using classes, default to marking them as final
 final class MyViewController: UIViewController {
+  // Avoid weak references to IBOutlets
+  @IBOutlet var button: UIButton!
 }
 
 // MARK: Closures
